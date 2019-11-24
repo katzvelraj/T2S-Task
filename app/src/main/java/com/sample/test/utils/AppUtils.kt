@@ -8,10 +8,7 @@ import java.nio.charset.Charset
 import java.util.zip.DataFormatException
 import java.util.zip.Inflater
 
-/*
-* Decode compress algorithm code inspired from
-* https://dzone.com/articles/how-compress-and-uncompress
-*/
+
 
 @Throws(UnsupportedEncodingException::class, DataFormatException::class)
 fun decodeToString(input: String): String {

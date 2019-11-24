@@ -6,7 +6,7 @@ import com.google.gson.reflect.TypeToken
 
 
 fun Any.toJson(): String {
-    return Gson().toJson(this) //TODO should convert into singleton, this is expensive call
+    return Gson().toJson(this)
 }
 
 inline fun <reified T> Gson.fromJson(json: String) =
